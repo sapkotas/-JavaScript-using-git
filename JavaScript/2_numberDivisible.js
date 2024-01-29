@@ -1,5 +1,5 @@
 
-const propmpt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
   let a = prompt("Enter a number: ");
 a = Number.parseInt(a);
 if (a % 2 == 0 || a % 3 == 0) {

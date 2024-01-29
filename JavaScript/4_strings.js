@@ -1,3 +1,4 @@
+const prompt=require("prompt-sync")();
 let name = "Sunav"
 // console.log(name.length)
 

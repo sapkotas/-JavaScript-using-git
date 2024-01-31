@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent node in js </title>
+</head>
+<!-- first child of body is div -->
+<body><div><div class="first">first</div><div class="second">second</div>
+        <!-- <p>I am currently learning js</p>
+        <span>Accessing parent node</span> -->
+    </div>
+    <script>
+       console.log(document.body.firstChild)
+       a= document.body.firstChild
+       console.log(a.parentNode)
+       console.log(a.parentElement)
+
+       //parentNode returns the value if it is a node weather comment node or text node
+       //parentElemnt returns null if the given value is not correct. It has to be a element 
+        console.log(a.firstChild.nextSibling)
+
+    </script>
+</body>
+</html>
